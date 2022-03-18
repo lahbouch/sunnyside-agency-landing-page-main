@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <main class="main">
+      <nav class="navbar">
+        <img src="./images/logo.svg" alt="" class="logo__navbar" />
+        <ul class="navbar__list">
+          <li><a href="#" class="navbar__link">About</a></li>
+          <li><a href="#" class="navbar__link">Services</a></li>
+          <li><a href="#" class="navbar__link">Projects</a></li>
+          <li><a href="#" class="navbar__link active">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1 class="header__heading">We are creatives</h1>
+        <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
+      </header>
+    </main>
+    <section class="grid__section">
+      <div class="first__row">
+        <picture  class="section_img">
+          <source
+            media="(min-width: 787px)"
+            srcset="images\desktop\image-transform.jpg"
+          />
+          <img
+            class="section__img"
+            src="./images/mobile/image-transform.jpg"
+            alt=""
+          />
+        </picture ">
+        <div class="first__row--text">
+          <h2 class="section__heading">Transform your brand</h2>
+          <p class="section__body">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="section__link" href=""
+            >Learn more <span class="border b1"></span>
+          </a>
+        </div>
+      </div>
+      <div class="second__row">
+        <picture class="section_img img2">
+          <source
+            media="(min-width: 787px)"
+            srcset="images\desktop\image-stand-out.jpg"
+          />
+          <img
+            class="section__img"
+            src="./images/desktop/image-stand-out.jpg"
+            alt=""
+          />
+        </picture>
+        <div class="first__row--text">
+          <h2 class="section__heading">Stand out to the right audience</h2>
+          <p class="section__body">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a class="section__link" href=""
+            >Learn more <span class="border b2"></span>
+          </a>
+        </div>
+      </div>
+      <div class="third__row"></div>
+    </section>
+    <section class="flex__section">
+      <div class="flex__section--tot tem1">
+        <h2 class="heading section__heading">Graphic design</h2>
+        <p class="txt">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="flex__section--tot tem2">
+        <h2 class="heading heading1 section__heading">Photography</h2>
+        <p class="txt txt1">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </section>
+    <section class="reviews">
+      <h2 class="reviews__heading">Client testimonials</h2>
+      <div class="clients">
+        <div class="clientCard">
+          <img src="./images/image-emily.jpg" alt="" />
+          <p class="card__txt">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <ul>
+            <li class="cardName">Emily R.</li>
+            <li class="cardRole">Marketing Director</li>
+          </ul>
+        </div>
+        <div class="clientCard">
+          <img src="./images/image-thomas.jpg" alt="" />
+          <p class="card__txt">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <ul>
+            <li class="cardName">Thomas S.</li>
+            <li class="cardRole">Chief Operating Officer</li>
+          </ul>
+        </div>
+        <div class="clientCard">
+          <img src="./images/image-jennie.jpg" alt="" />
+          <p class="card__txt">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <ul>
+            <li class="cardName">Jennie F.</li>
+            <li class="cardRole">Business Owner</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="gallery__section">
+      <img
+        class="gallery__img"
+        src="./images/mobile/image-gallery-milkbottles.jpg"
+        alt=""
+      />
+      <img
+        class="gallery__img"
+        src="./images/mobile/image-gallery-orange.jpg"
+        alt=""
+      />
+      <img
+        class="gallery__img"
+        src="./images/mobile/image-gallery-cone.jpg"
+        alt=""
+      />
+      <img
+        class="gallery__img"
+        src="./images/mobile/image-gallery-sugar-cubes.jpg"
+        alt=""
+      />
+    </section>
+    <footer>
+      <div class="footer">
+        <img class="footer__img" src="./images/logof.svg" alt="" />
+
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">About</a></li>
+          <li><a href="#" class="footer__link">Services</a></li>
+          <li><a href="#" class="footer__link">Projects</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <img class="social__icon" src="./images/icon-facebook.svg" alt="" />
+        <img class="social__icon" src="./images/icon-instagram.svg" alt="" />
+        <img class="social__icon" src="./images/icon-twitter.svg" alt="" />
+        <img class="social__icon" src="./images/icon-pinterest.svg" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
